@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  detector:
+    build: '.'
+    ports:
+      - 18681:811
+    volumes:
+      - /srv/mask-detector:/usr/src/app

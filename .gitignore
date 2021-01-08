@@ -1,0 +1,5 @@
+bin
+lib
+pyven
+__*
+logs/*
